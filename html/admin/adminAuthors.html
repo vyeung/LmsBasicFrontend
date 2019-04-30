@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/index.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <div class="navBar">
+    <div class="logo">
+      <a href="../homepage.html">
+        <img src="../../assets/books.jpg" alt="book">
+      </a>
+    </div>
+    <div class="navButtons">
+      <a href="../homepage.html">
+        <button>Logout</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="adminDash">
+    <div class="adminDash_left">
+      <nav class="nav flex-column">
+        <a class="nav-link" href="./adminBooks.html">All Books</a>
+        <a class="nav-link" href="./adminAuthors.html">All Authors</a>
+        <a class="nav-link" href="./adminPublishers.html">All Publishers</a>
+        <a class="nav-link" href="./adminBranches.html">All Branches</a>
+        <a class="nav-link" href="./adminBorrowers.html">All Borrowers</a>
+        <a class="nav-link" href="./adminDueDate.html">Change Due Date</a>
+      </nav>
+    </div>
+
+    <div class="adminDash_right">
+      <div class="adminTable table-responsive">
+        <div class="table-title">
+          <h3>Authors</h3>
+          <a href="#">
+            <button class="addButton">
+              <i class="material-icons">add</i>
+              Add New
+            </button>
+          </a>
+        </div>
+        
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Author Id</th>
+              <th scope="col">Name</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Stephen King</td>
+              <td class="table_buttons">
+                <a class="edit" href="#" title="Edit Author" data-toggle="tooltip">
+                  <i class="material-icons">edit</i>
+                </a>
+                <a class="delete" href="#" title="Delete Author" data-toggle="tooltip">
+                  <i class="material-icons">delete</i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Sal Smith</td>
+              <td class="table_buttons">
+                <a class="edit" href="#" title="Edit Author" data-toggle="tooltip">
+                  <i class="material-icons">edit</i>
+                </a>
+                <a class="delete" href="#" title="Delete Author" data-toggle="tooltip">
+                  <i class="material-icons">delete</i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Mary Roberts</td>
+              <td class="table_buttons">
+                <a class="edit" href="#" title="Edit Author" data-toggle="tooltip">
+                  <i class="material-icons">edit</i>
+                </a>
+                <a class="delete" href="#" title="Delete Author" data-toggle="tooltip">
+                  <i class="material-icons">delete</i>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

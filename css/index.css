@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+html, body {
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background: #0d1831;
+  border: 1px solid #0d1831;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background: #1c3266;
+}
+
+input, select {
+  background: #fafafa;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 17px;
+  font-family: Roboto;
+  font-weight: 300;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*always show the tick marks on right side*/
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1
+}
+
+a, a:hover {
+  text-decoration: none;
+}
