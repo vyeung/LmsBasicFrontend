@@ -44,6 +44,15 @@ function addBookHandler() {
   var bookAuthor = document.getElementById("addBookAuthor").value;
   var bookPublisher = document.getElementById("addBookPublisher").value;
   
+  if(bookTitle==="" || bookAuthor==="" || bookPublisher==="") {
+    alert("Fields cannot be empty.");
+    return;
+  }
+  if(bookTitle.length>25 || bookAuthor.length>25 || bookPublisher.length>25) {
+    alert("Fields cannot exceed 25 characters.");
+    return;
+  }
+
   var saveObj = {
     "bookId": 4,
     "bookTitle": bookTitle,
@@ -56,6 +65,8 @@ function addBookHandler() {
 
   jsonObj.books.push(saveObj);
   localStorage.setItem("myBooks", JSON.stringify(jsonObj));
+  
+  window.location.href = "adminBooks.html"; //only redirect when successful
 }
 
 
