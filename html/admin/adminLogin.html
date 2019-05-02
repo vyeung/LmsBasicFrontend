@@ -22,13 +22,15 @@
   <div class="login_main">
     <div class="login_form">
       <h1>Admin Login</h1>
-      <form action="adminDash.html">
-        <input type="text" placeholder="Enter your username...">
-        <input type="text" placeholder="Enter your password...">
-        <button>Enter</button>
+      <form>
+        <input type="text" id="adminUsername" placeholder="Enter your username...">
+        <input type="text" id="adminPassword" placeholder="Enter your password...">
       </form>
+      <button onclick="checkCredentials()">Enter</button>  
     </div>
   </div>
+
+  <script src="../../js/validateAdmin.js"></script>
 </body>
 
 </html>
