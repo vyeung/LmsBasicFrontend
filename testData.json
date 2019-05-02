@@ -1,0 +1,22 @@
+{
+	"books" : [
+    {
+		"bookId": 1,
+		"bookTitle": "The Shining",
+		"authorName": "Stephen King",
+		"publisherName": "Donaldson"
+		},
+		{
+		"bookId": 2,
+		"bookTitle": "Forest Whispers",
+		"authorName": "Sal Smith",
+		"publisherName": "McGelon"
+		},
+		{
+		"bookId": 3,
+		"bookTitle": "The Lost Tribe",
+		"authorName": "Mary Roberts",
+		"publisherName": "Penguin"
+		}
+	]
+}

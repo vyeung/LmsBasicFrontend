@@ -1,0 +1,32 @@
+{
+	"admins": [
+    {
+		  "userName": "Tom Sutton",
+		  "password": "a1"
+		},
+		{
+		  "userName": "Jenny Penny",
+		  "password": "a2"
+		}
+  ],
+  "librarians": [
+    {
+      "userName": "Kathy Johnson",
+      "password": "l1"
+    },
+    {
+      "userName": "Beth Fairweather",
+      "password": "l2"
+    }
+  ],
+  "borrowers": [
+    {
+      "cardNum": "444",
+      "password": "b1"
+    },
+    {
+      "cardNum": "555",
+      "password": "b2"
+    }
+  ]
+}
