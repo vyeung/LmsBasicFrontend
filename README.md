@@ -1,6 +1,6 @@
 # LmsBasicFrontend
  
-The Library Management System with a basic frontend that only uses <ins>core</ins> html, css, and js.
+The Library Management System with a basic frontend that only uses <ins>core</ins> html, css, and js. 
 
 **Project Run Notes:**
 * Open homepage.html in a web browser.
